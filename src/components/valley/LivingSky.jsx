@@ -18,7 +18,7 @@ export default function LivingSky({ season = 'summer', timeOfDay = 'dusk' }) {
   const mouseY = useRef(0)
 
   // 8 Canonical Clean Landscapes with cache-busting query to ensure instant browser reload
-  const summerDawn = useTexture('/models/valley/island_dawn.jpg?v=7')
+  const summerDawn = useTexture('/models/valley/island_dawn.jpg?v=8')
   const summerDay = useTexture('/models/valley/island_day.jpg?v=7')
   const summerDusk = useTexture('/models/valley/island_dusk.jpg?v=7')
   const summerNight = useTexture('/models/valley/island_night.jpg?v=7')

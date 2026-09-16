@@ -42,3 +42,13 @@ next-env.d.ts
 
 # local references
 references/
+
+# scratch directory
+scratch/
+
+# master 4K character cinematic cutscenes (streamed via Cloudflare R2 in production)
+public/models/character/chars final/
+
+# local unused video prototypes
+public/golden_wisp*
+
